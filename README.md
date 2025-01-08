@@ -2,7 +2,7 @@
 
 ## Preview
 
-![Bike Sharing Dashboard Github Preview]()
+![Bike Sharing Dashboard Github Preview](https://github.com/danielanputri/Bike-Sharing-Data-Analysis/blob/main/preview.png)
 
 ## Deskripsi
 
