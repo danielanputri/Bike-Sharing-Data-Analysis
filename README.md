@@ -12,14 +12,14 @@ Project ini bertujuan untuk menganalisis data Bike Sharing Dataset. Tujuan akhir
 
 - **/dataset**: Direktori ini berisi data/dataset yang digunakan dalam project ini dalam format .csv.
 - **/dashboard**: Direktori ini berisi dashboard.py yang digunakan untuk membuat dashboard hasil analisis/visualisasi data.
-- **BikeSharing.ipynb**: File ini adalah file yang digunakan untuk melakukan cleaning data & analisis data.
+- **bike_sharing.ipynb**: File ini adalah file yang digunakan untuk melakukan cleaning data & analisis data.
 
 ## Instalasi
 
 1. Clone repository ini ke computer/directory local Anda menggunakan perintah berikut:
 
    ```shell
-   git clone
+   git clone https://github.com/danielanputri/Bike-Sharing-Data-Analysis
    ```
 
 2. Pastikan Anda memiliki requirements Python yang sesuai dan seluruh pustaka yang diperlukan. Anda dapat menginstall pustaka tersebut dengan menjalankan perintah berikut:
@@ -38,4 +38,4 @@ Project ini bertujuan untuk menganalisis data Bike Sharing Dataset. Tujuan akhir
    ```
 
 2. Buka website Streamlit ini:
-   [Project Data Analysis in Streamlit]()
+   [Project Data Analysis in Streamlit](https://daniela-bike-data-analytics.streamlit.app/)
