@@ -1,14 +1,20 @@
 import streamlit as st
 import pandas as pd
-# pip install streamlit-option-menu
 from streamlit_option_menu import option_menu
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
+import pandas as pd
+
+# Mendapatkan path direktori saat ini
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Fetch Data
-bs_days_df = pd.read_csv("bike_sharing_day_df.csv")
-bs_hours_df = pd.read_csv("bike_sharing_hour_df.csv")
+day_csv_path = os.path.join(current_dir, "bike_sharing_day_df.csv")
+hour_csv_path = os.path.join(current_dir, "bike_sharing_hour_df.csv")
 
+bs_days_df = pd.read_csv(day_csv_path)
+bs_hours_df = pd.read_csv(day_csv_path)
 # Function
 
 
