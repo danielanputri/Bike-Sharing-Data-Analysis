@@ -14,7 +14,7 @@ day_csv_path = os.path.join(current_dir, "bike_sharing_day_df.csv")
 hour_csv_path = os.path.join(current_dir, "bike_sharing_hour_df.csv")
 
 bs_days_df = pd.read_csv(day_csv_path)
-bs_hours_df = pd.read_csv(day_csv_path)
+bs_hours_df = pd.read_csv(hour_csv_path)
 # Function
 
 
