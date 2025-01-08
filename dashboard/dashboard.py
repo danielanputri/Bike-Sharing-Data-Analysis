@@ -43,6 +43,7 @@ def sum_casual_df(bs_day_df):
 
 
 # Dashboard
+style_path = os.path.join(current_dir, "style.css")
 st.set_page_config(page_title="Bike Sharing Dashboard",
                    page_icon="🚴", layout="wide")
 with open('style.css') as f:
