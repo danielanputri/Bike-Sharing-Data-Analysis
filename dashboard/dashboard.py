@@ -46,7 +46,7 @@ def sum_casual_df(bs_day_df):
 style_path = os.path.join(current_dir, "style.css")
 st.set_page_config(page_title="Bike Sharing Dashboard",
                    page_icon="🚴", layout="wide")
-with open('style.css') as f:
+with open(style_path) as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 st.subheader("Bike Sharing Data Analytics🚴")
 
